@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+h5 {
+  margin-right: 15px;
+}
+.category-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#infoForAdmin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+th, td {
+  padding-left: 20px !important;
+}
+
+#navbarNav {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.dropdown-menu {
+  width: 100%;
+}
+.dropdown-menu > li{
+  text-align: center;
+}
+.dropdown-menu > li > a {
+  color: black;
+}
+#adAlert{
+  position: absolute;
+  top: 6%;
+  left: 0.5%;
+  z-index: 100;
+}
+#myAds{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #3C4F76 !important;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* borders */
+.borderisred {
+  border: 3px solid red;
+}
+.borderisgreen {
+  border: 3px solid green;
+}
+.borderisyellow {
+  border: 3px solid yellow;
+}
+.borderispink {
+  border: 3px solid lightcoral;
+}
+.borderisorange {
+  border: 3px solid orange;
+}
+.borderisblue {
+  border: 3px solid blue;
+}
